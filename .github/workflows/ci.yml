@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    uses: frontierdigital/.github/workflows/terraform-module.yml@v1.0.0-pre.d09dd6b
+    uses: frontierdigital/shared-workflows/.github/workflows/terraform-module.yml@v1.0.0-pre.d09dd6b
   # preflight:
   #   runs-on: ubuntu-latest
   #   outputs:
