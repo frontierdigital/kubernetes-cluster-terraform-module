@@ -2,7 +2,7 @@ provider "azurerm" {
   features {}
 }
 
-module "aks_cluster" {
+module "kubernetes_service" {
   source = "../src"
 
   environment                = "foo"
