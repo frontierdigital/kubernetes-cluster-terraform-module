@@ -25,5 +25,6 @@ def test_terraform(working_dir: str, validate: bool = True):
             handle_error(return_code, stdout, stderr)
 
 
-test_terraform('src', False)
-test_terraform('test')
+if __name__ == "__main__":
+    test_terraform('src', False)
+    test_terraform('test')

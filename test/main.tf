@@ -11,6 +11,7 @@ module "kubernetes_service" {
   location                   = "uksouth"
   log_analytics_workspace_id = "quz"
   resource_group_name        = "floof"
+  set                        = "standalone"
   subnet_id                  = "blurble"
   workload_name              = "foo"
   workload_type              = "foo/bar"
