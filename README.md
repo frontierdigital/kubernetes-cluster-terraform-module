@@ -5,7 +5,7 @@ This Terraform module deploys an `azurerm_kubernetes_cluster` and supporting res
 
 ## Test
 ```sh
-make install
+INCLUDE_DEV=true make install
 make test
 ```
 
