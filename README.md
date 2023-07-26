@@ -1,5 +1,7 @@
 # kubernetes-cluster-terraform-module
 
+[![CI](https://github.com/frontierdigital/kubernetes-cluster-terraform-module/actions/workflows/ci.yml/badge.svg)](https://github.com/frontierdigital/kubernetes-cluster-terraform-module/actions/workflows/ci.yml)
+
 ## About
 This Terraform module deploys an `azurerm_kubernetes_cluster` and supporting resources.
 
