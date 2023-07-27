@@ -8,6 +8,7 @@ locals {
 
   tags = {
     Environment     = var.environment
+    Set             = var.set
     WorkloadName    = var.workload_name
     WorkloadType    = var.workload_type
     WorkloadVersion = var.workload_version
